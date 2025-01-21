@@ -1,4 +1,4 @@
-
+```sql
 SELECT namefirst || ' ' || namelast AS player_name,
 	height AS height_in,
 	g_all AS num_games_played,
@@ -10,3 +10,4 @@ LEFT JOIN teams
 USING(teamid, yearid)
 WHERE playerid IN (SELECT playerid FROM people ORDER BY height LIMIT 1);
 
+```
