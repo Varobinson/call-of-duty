@@ -20,4 +20,5 @@ const sqlString = "SELECT `id`, `username` FROM `users` WHERE `email` = 'test@ex
 const highlighted = highlight(sqlString)
 
 console.log(highlighted)
+
 ```
