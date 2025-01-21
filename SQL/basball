@@ -1,4 +1,4 @@
-```sql
+```js
 SELECT namefirst || ' ' || namelast AS player_name,
 	height AS height_in,
 	g_all AS num_games_played,
